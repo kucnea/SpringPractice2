@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 import spring.di.entity.Exam;
 
-@Component("console") //component ÀÌ¸§ ÁöÁ¤
+@Component("console") //component ì´ë¦„ ì§€ì •
 public class InlineExamConsole implements ExamConsole {
 
 //	@Autowired(required = false)
@@ -16,12 +16,12 @@ public class InlineExamConsole implements ExamConsole {
 	
 	
 	public InlineExamConsole() {
-		System.out.println("»ı¼ºÀÚ");
+		System.out.println("ìƒì„±ì");
 	}
 	
 //	@Autowired
 	public InlineExamConsole(@Qualifier("exam1")Exam exam) {
-		System.out.println("¿À¹ö·Îµå »ı¼ºÀÚ");
+		System.out.println("ì˜¤ë²„ë¡œë“œ ìƒì„±ì");
 		this.exam = exam;
 	}
 
@@ -44,7 +44,7 @@ public class InlineExamConsole implements ExamConsole {
 //	@Qualifier("exam1")
 	@Override
 	public void setExam(Exam exam) {
-		System.out.println("¼¼ÅÍ");
+		System.out.println("ì„¸í„°");
 		this.exam = exam;
 		
 	}

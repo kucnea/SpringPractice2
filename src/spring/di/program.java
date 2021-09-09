@@ -18,7 +18,7 @@ public class program {
 //		ApplicationContext context = 
 //				new AnnotationConfigApplicationContext(NewlecDIConfig.class);
 		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext();
-//		context.register(NewlecDIConfig.class, OtherConfig.class); ø©∑Ø∞≥µµ ∞°¥…
+//		context.register(NewlecDIConfig.class, OtherConfig.class); Ïó¨Îü¨Í∞úÎèÑ Í∞ÄÎä•
 		context.register(NewlecDIConfig.class);
 		context.refresh();
 		
