@@ -1,4 +1,4 @@
-package spring.aop.entity;
+package spring.aop2.entity;
 
 import org.springframework.stereotype.Component;
 

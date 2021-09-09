@@ -17,6 +17,7 @@ public class program {
 		
 //		ApplicationContext context = 
 //				new AnnotationConfigApplicationContext(NewlecDIConfig.class);
+		
 		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext();
 //		context.register(NewlecDIConfig.class, OtherConfig.class); 여러개도 가능
 		context.register(NewlecDIConfig.class);
