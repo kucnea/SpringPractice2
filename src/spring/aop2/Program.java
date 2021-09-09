@@ -17,6 +17,9 @@ public class Program {
 		Exam proxy = (Exam) context.getBean("proxy");
 		
 		System.out.printf("total is %d\n",proxy.total());
+		System.out.println("===============nextMethod================");
+		System.out.println();
+		System.out.println();
 		System.out.printf("total is %f\n",proxy.avg());
 		
 		
